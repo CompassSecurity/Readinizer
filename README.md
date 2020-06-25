@@ -1,4 +1,3 @@
-[![Build status](https://dev.azure.com/cmattes/Readinizer/_apis/build/status/Readinizer-.NET-CI)](https://dev.azure.com/cmattes/Readinizer/_build/latest?definitionId=6)
 # Readinizer
 ## Introduction
 The number of cyber-attacks where malicious code is used has massively increased recently. These attacks not only settles on the infected system, but can also infect other systems through lateral movements in the network. The outcome is often the complete infiltration of the organization due to the use of advanced persistent threats (APT). Although the configuration of these targeted networks varies depending on the organization, common patterns in the attack methods can be detected. In the analysis of such patterns and events, information and time are key factors to success. Hence, readiness and a fast access through an entire environment for such an event is a decisive factor.
