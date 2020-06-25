@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Lsass.exe audit mode",
+        "Path": "Computer Configuration\\Policies\\Administrative Templates\\SCM: Pass the Hash Mitigations",
+        "KeyPath": "Software\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\LSASS.exe",
+        "TargetValue": {
+            "Name": "AuditLevel",
+            "Number": "8"
+        }
+    },
+    {
+        "Name": "LSA Protection",
+        "Path": "Computer Configuration\\Policies\\Administrative Templates\\SCM: Pass the Hash Mitigations",
+        "KeyPath": "SYSTEM\\CurrentControlSet\\Control\\Lsa",
+        "TargetValue": {
+            "Name": "RunAsPPL",
+            "Number": "1"
+        }
+    }
+]

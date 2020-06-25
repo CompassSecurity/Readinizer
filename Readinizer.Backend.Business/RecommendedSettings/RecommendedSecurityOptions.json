@@ -1,0 +1,11 @@
+[
+    {
+        "Description": "Force Audit Policy",
+        "Path": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Local Policies\\Security Options",
+        "KeyName": "MACHINE\\System\\CurrentControlSet\\Control\\Lsa\\SCENoApplyLegacyAuditPolicy",
+        "TargetDisplay": {
+            "Name": "Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings",
+            "DisplayBoolean": "true"
+        }
+    }
+]
