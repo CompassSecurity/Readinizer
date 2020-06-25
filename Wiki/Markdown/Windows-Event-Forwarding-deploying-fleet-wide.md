@@ -1,0 +1,3 @@
+This manual describes step by step how Windows Event Forwaring (WEF) - also known as central logging - can be integrated over an entire Windows domain.
+
+A Windows Event Collector (WEC) is installed, which is responsible for the collection of all logs of the clients. A GPO is defined which allows the selected clients to send their logs to the WEC. The subscription is described, which defines what to log.
