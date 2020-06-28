@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Readinizer.Backend.Domain.Models.ADDomain">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAAAQAAQAUAAAAAQQAQAAAAAAAgAAEIAAAAA=</HashCode>
+      <FileName>Models\ADDomain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.Computer">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAEAAgAAAAAAgAAAAACAIAAAAAAAQAAAAAABAAABAAA=</HashCode>
+      <FileName>Models\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.OrganisationalUnit">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAIAAAAgEAAAAAAAAAQAAAAAABAAAgIAAAAEAAA=</HashCode>
+      <FileName>Models\OrganisationalUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.Rsop">
+    <Position X="8.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>KQACAAAAAAAggABEAAAAAIAAAgBAAAAACAAAAQABAAA=</HashCode>
+      <FileName>Models\Rsop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.RsopPot">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAAAABAAAAAQAAgAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RsopPot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.SecuritySettingsParsed">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAggAFAAAA=</HashCode>
+      <FileName>Models\SecuritySettingsParsed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.Site">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAAAAAAAAAAQAAAAAABAAAAAAQAAQAAA=</HashCode>
+      <FileName>Models\Site.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.TreeNode">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAgIAAAAAAAABAAAAAAAAAAAACAQAAIAAA=</HashCode>
+      <FileName>Models\TreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.Gpo">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAEgAAAEAIAAAAAACAQAAAAAAAgAAAAAQAAIAAA=</HashCode>
+      <FileName>Models\Gpo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.Policy">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAEAEAAAAAAAgAAAACQAAAAAAMAAAAAABEIICAA=</HashCode>
+      <FileName>Models\Policy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.RegistrySetting">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAEAEAAAAAAAgAAAAAQgAAAgAIQAAAAAAEAIAAA=</HashCode>
+      <FileName>Models\RegistrySetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.SecurityOption">
+    <Position X="6.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAEAAggAIAgAAAAAAAAAAAAMAAAAAAAEIIQAA=</HashCode>
+      <FileName>Models\SecurityOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readinizer.Backend.Domain.Models.AuditSetting">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Readinizer.Backend.Domain.Models.AuditSetting.AuditSettingValue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\AuditSetting.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BCAAAAEAEAAgAAAAgAAAAAAAAAAAAMAAAQAAAEAIAQA=</HashCode>
+      <FileName>Models\AuditSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

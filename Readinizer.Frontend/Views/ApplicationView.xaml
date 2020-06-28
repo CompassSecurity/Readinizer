@@ -1,0 +1,67 @@
+﻿<Window x:Class="Readinizer.Frontend.Views.ApplicationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:Readinizer.Frontend.ViewModels" 
+        xmlns:views="clr-namespace:Readinizer.Frontend.Views" 
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+        md:DialogServiceViews.IsRegistered="True"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Title="Readinizer" 
+        Icon="../Favicon/favicon.ico"
+        MinWidth="1100" MinHeight="780" MaxHeight="{Binding ScreenHeight}"
+        Width="1100" Height="780">
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModels:StartUpViewModel}">
+            <views:StartUpView></views:StartUpView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:TreeStructureResultViewModel}">
+            <views:TreeStructureResultView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:SpinnerViewModel}">
+            <views:SpinnerView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:DomainResultViewModel}">
+            <views:DomainResultView></views:DomainResultView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:RSoPResultViewModel}">
+            <views:RsopResultView></views:RsopResultView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:OUResultViewModel}">
+            <views:OUResultView></views:OUResultView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:SysmonResultViewModel}">
+            <views:SysmonResultView></views:SysmonResultView>
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Close" Command="{Binding CloseCommand}"/>
+                <MenuItem Header="_New Analysis" Command="{Binding NewAnalysisCommand}"/>
+            </MenuItem>
+            <MenuItem Header="_Export">
+                <MenuItem Header="_Export Grouped Security Settings (RSoP per OU)" Command="{Binding ExportRSoPPotsCommand}" IsEnabled="{Binding CanExport}"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_User Manual" Command="{Binding UserManualCommand}"/>
+                <MenuItem Header="_Central Logging" Command="{Binding CentralLoggingCommand}"/>
+                <MenuItem Header="_Sysmon" Command="{Binding SysmonCommand}"/>
+                <MenuItem Header="_Optimized GPO" Command="{Binding OptimizedGPOCommand}"/>
+            </MenuItem>
+        </Menu>
+        <materialDesign:Snackbar x:Name="Snackbar" DockPanel.Dock="Bottom" HorizontalAlignment="Center" MessageQueue="{Binding SnackbarMessageQueue}" />
+        <ContentControl Content="{Binding CurrentViewModel}" Width="Auto" Height="Auto" />
+    </DockPanel>
+</Window>

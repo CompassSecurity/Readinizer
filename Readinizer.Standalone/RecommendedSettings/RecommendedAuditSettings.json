@@ -1,0 +1,137 @@
+[
+    {
+        "SubCategoryName": "Audit Kerberos Authentication Service",
+        "PolicyTarget": "Account Logon",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Kerberos Service Ticket Operations",
+        "PolicyTarget": "Account Logon",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Computer Account Management",
+        "PolicyTarget": "Account Management",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Other Account Management Events",
+        "PolicyTarget": "Account Management",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Security Group Management",
+        "PolicyTarget": "Account Management",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit User Account Management",
+        "PolicyTarget": "Account Management",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Process Creation",
+        "PolicyTarget": "Detailed Tracking",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Process Termination",
+        "PolicyTarget": "Detailed Tracking",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Account Lockout",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "Failure"
+    },
+    {
+        "SubCategoryName": "Audit Group Membership",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Logoff",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Logon",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Other Logon/Logoff Events",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Special Logon",
+        "PolicyTarget": "Logon/Logoff",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit File Share",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit File System",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Handle Manipulation",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Kernel Object",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Other Object Access Events",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Registry",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit SAM",
+        "PolicyTarget": "Object Access",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Audit Policy Change",
+        "PolicyTarget": "Policy Change",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit MPSSVC Rule-Level Policy Change",
+        "PolicyTarget": "Policy Change",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit Non Sensitive Privilege Use",
+        "PolicyTarget": "Privilege Use",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Sensitive Privilege Use",
+        "PolicyTarget": "Privilege Use",
+        "TargetSettingValue": "SuccessAndFailure"
+    },
+    {
+        "SubCategoryName": "Audit Security System Extension",
+        "PolicyTarget": "System",
+        "TargetSettingValue": "Success"
+    },
+    {
+        "SubCategoryName": "Audit System Integrity",
+        "PolicyTarget": "System",
+        "TargetSettingValue": "SuccessAndFailure"
+    }
+]
